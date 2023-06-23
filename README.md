@@ -30,6 +30,9 @@ def test_mul():
 
 def test_div():
     assert div(2,1) == 2
+
+def rem(a, b):
+    return a % b
 ```
 
 ## Step 3 - Create a workflow

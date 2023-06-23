@@ -18,6 +18,10 @@ def mul(a, b):
 def div(a, b):
     return a / b
 
+#Remainder
+def rem(a, b):
+    return a % b
+
 
 if __name__ == "__main__":
     # Declare variable and set default values
@@ -27,3 +31,4 @@ if __name__ == "__main__":
     print("Difference of " + str(a) + " and " + str(b) + " is ", sub(a, b))
     print("Product of " + str(a) + " and " + str(b) + " is ", mul(a, b))
     print("Division of " + str(a) + " and " + str(b) + " is ", div(a, b))
+    print("Remainder of " + str(a) + " and " + str(b) + " is ", rem(a, b))
