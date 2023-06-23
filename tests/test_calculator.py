@@ -2,19 +2,19 @@ from calculator import add, div, mul, sub, rem
 
 
 def test_add():
-    assert add(1, 1) == 2
+    assert add(1, 3) == 4
 
 
 def test_sub():
-    assert sub(1, 1) == 0
+    assert sub(5, 1) == 4
 
 
 def test_mul():
-    assert mul(1, 1) == 1
+    assert mul(3, 2) == 6
 
 
 def test_div():
-    assert div(2, 1) == 2
+    assert div(10, 5) == 2
 
 def test_rem():
     assert rem(5, 2) == 1
