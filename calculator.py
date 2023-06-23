@@ -11,7 +11,7 @@ def sub(a, b):
 
 # Multiplication
 def mul(a, b):
-    return a * b
+    return a + b
 
 
 # Division
@@ -25,8 +25,8 @@ def rem(a, b):
 
 if __name__ == "__main__":
     # Declare variable and set default values
-    a = 4
-    b = 2
+    a = 6
+    b = 3
     print("Sum of " + str(a) + " and " + str(b) + " is ", add(a, b))
     print("Difference of " + str(a) + " and " + str(b) + " is ", sub(a, b))
     print("Product of " + str(a) + " and " + str(b) + " is ", mul(a, b))
